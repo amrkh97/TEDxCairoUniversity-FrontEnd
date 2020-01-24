@@ -9,4 +9,6 @@ footer {
     color: white;
 }
 
-.horizontal { display: inline;  }
+.horizontal {
+    display: inline;
+}
