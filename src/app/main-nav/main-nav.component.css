@@ -25,3 +25,12 @@
         display: none;
     }
 }
+
+.mat-toolbar {
+    background-color: darkred;
+}
+
+.mat-sidenav {
+    background-color: black;
+    color: white;
+}
