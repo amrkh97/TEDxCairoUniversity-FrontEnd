@@ -1,0 +1,27 @@
+.nav-button {
+    color: white;
+}
+
+.page-title {
+    margin-left: 5px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.navigation-margin {
+    height: 70vh;
+}
+
+@media (max-width: 650px) {
+    #main-bar {
+        display: none;
+    }
+}
+
+@media (min-width: 650px) {
+    #bts-direc {
+        display: none;
+    }
+}

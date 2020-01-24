@@ -18,6 +18,8 @@ import {
   MatNativeDateModule,
   MatPaginatorModule,
   MatRadioModule,
+  MatSidenav,
+  MatSidenavModule,
 } from '@angular/material';
 
 @NgModule({
@@ -40,6 +42,7 @@ import {
     MatTableModule,
     MatPaginatorModule,
     MatRadioModule,
+    MatSidenavModule,
   ],
   exports: [
     MatButtonModule,
@@ -60,6 +63,7 @@ import {
     MatTableModule,
     MatPaginatorModule,
     MatRadioModule,
+    MatSidenavModule,
   ]
 })
 export class MaterialModule {}
