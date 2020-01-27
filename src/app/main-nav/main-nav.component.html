@@ -16,6 +16,12 @@
       <a routerLink="/contact" routerLinkActive="active" mat-button>Contact Us</a>
     </div>
 
+
+      <div id="main-bar" fxShow="true" fxHide.lt-md="true">
+      <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+      <a routerLink="/blog" routerLinkActive="active" mat-button>Blog</a>
+    </div>
+
    
   </mat-toolbar>
 
@@ -24,6 +30,11 @@
     <div fxLayout="column">
         <hr>
         <a routerLink="/contact" routerLinkActive="active" mat-button>Contact Us</a>
+        <hr>
+    </div>
+    <div fxLayout="column">
+        <hr>
+        <a routerLink="/blog" routerLinkActive="active" mat-button>Blog</a>
         <hr>
     </div>
     </mat-sidenav>   
