@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { TeamComponent } from './pages/team/team.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { BlogComponent } from './pages/blog/blog.component';
     FooterComponent,
     MainNavComponent,
     ContactUsComponent,
-    BlogComponent
+    BlogComponent,
+    TeamComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

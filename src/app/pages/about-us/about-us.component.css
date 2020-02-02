@@ -1,0 +1,158 @@
+#page 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 height: 1000px; 
+	 z-index:0;
+    } 
+    
+#TED_ID
+{
+    font-weight: bold;
+    margin-left: 3%; 
+    margin-top: 1%; 
+    position: absolute; 
+    width: 25%;
+    height: 25%;
+    z-index:16;
+    font-size:3vw;
+    font-family:verdana;
+    
+}
+#TED_DEF
+{
+    
+    margin-left: 5%; 
+    margin-top: 6%; 
+    position: absolute; 
+    width: 25%;
+    height: 25%;
+    z-index:16;
+    font-size:1vw;
+    font-family:verdana;
+
+    
+}
+
+#XOnRight
+{
+        
+    margin-left: 40%; 
+    margin-top: 6%;  
+    position: absolute; 
+    width:30%;
+    height: 30%;
+    z-index:2%;
+}
+#XOnLeft
+{
+    margin-left: 5%;  
+    margin-top: 40%;  
+    position: absolute; 
+    width:25%;
+    height: 25%;
+    z-index:2%;
+}
+
+
+#TEDx_ID
+{
+     font-weight: bold;
+    margin-left: 40%; 
+    margin-top: 35%; 
+    position: absolute; 
+    width: 25%;
+    height: 25%;
+    z-index:16;
+    font-size:3vw;
+    font-family:verdana;
+    
+}
+#TEDx_DEF
+{
+    
+    margin-left: 42%; 
+    margin-top: 40%; 
+    position: absolute; 
+    width: 25%;
+    height: 25%;
+    z-index:16;
+    font-size:1vw;
+    font-family:verdana;
+
+
+
+}
+#XOnRightBottom
+{
+    left: 25%; 
+    top: 99%; 
+    position: absolute; 
+
+    z-index:2%;
+}
+#XOnLeftBottom
+{   
+    
+    left: 2%; 
+    top:600px; 
+    position: absolute; 
+
+    z-index:2%;
+}
+#ourTeamSection
+{
+    
+    left: 0px; 
+    top:1000px; 
+    background-image: linear-gradient(to bottom, black,rgb(92, 92, 92));
+    position: relative; 
+    margin-left: auto; 
+    margin-right: auto; 
+    height: 480px; 
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #TED_ID {
+        font-size:4vw;
+    }
+    #TED_DEF {
+        font-size:2vw;
+    }
+    #TEDx_ID {
+        font-size:4vw;
+    }
+    #TEDx_DEF {
+        font-size:2vw;
+    }
+
+
+    #XOnRight
+    {
+        
+    margin-left: 40%; 
+    margin-top: 6%;  
+    position: absolute; 
+    width:10%;
+    height: 10%;
+    z-index:2%;
+    }
+    #XOnLeft
+{
+    margin-left: 5%;  
+    margin-top: 40%;  
+    position: absolute; 
+    width:10%;
+    height: 10%;
+    z-index:2%;
+}
+
+
+
+
+
+}

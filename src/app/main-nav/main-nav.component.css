@@ -27,10 +27,16 @@
 }
 
 .mat-toolbar {
-    background-color: darkred;
+    background-color: rgb(10, 0, 0);
 }
 
 .mat-sidenav {
     background-color: black;
     color: white;
+}
+
+#logo{
+    width:50%; 
+    height:50%;
+    margin-left: 2%;
 }
