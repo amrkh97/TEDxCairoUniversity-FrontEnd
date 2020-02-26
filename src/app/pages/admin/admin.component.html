@@ -1,0 +1,85 @@
+<mat-card style="background-image: url('../../../assets/GenerationImages/Generation-V-2000x1200_c.jpg');">
+<mat-card class="form-container card-border" style="margin-bottom: 50px;">
+  <div class="form-logo"></div>
+
+  <form [formGroup]="myForm" >
+
+    <div class="form-design">
+      <p > Add Blog </p>
+    </div>
+
+    <mat-form-field appearance="outline">
+      <mat-label >Members Content Creation Name </mat-label>
+      <input matInput type="text" formControlName="odName">
+      <mat-error *ngIf=" myForm.get('odName').invalid">Please enter your name with only letters
+      </mat-error>
+      <mat-icon matSuffix>perm_identity</mat-icon>
+    </mat-form-field>
+
+
+     <mat-form-field appearance="outline">
+      <mat-label >Blog Title </mat-label>
+      <input matInput type="text" formControlName="blogTitle">
+      <mat-error *ngIf=" myForm.get('blogTitle').invalid">Please enter blog title with only letters
+      </mat-error>
+      <mat-icon matSuffix>account_circle</mat-icon>
+    </mat-form-field>
+
+
+
+     <mat-form-field appearance="outline">
+      <mat-label >Blog Tag</mat-label>
+      <input matInput type="text" formControlName="blogTag">
+      <mat-error *ngIf=" myForm.get('blogTag').invalid">Please enter blog tag with only letters
+      </mat-error>
+      	<mat-icon matSuffix>list</mat-icon>
+    </mat-form-field>
+
+
+
+
+    <mat-form-field appearance="outline">
+      <mat-label >Blog Category</mat-label>
+      <input matInput type="text" formControlName="blogCategory">
+      <mat-error *ngIf=" myForm.get('blogCategory').invalid">Please enter blog category with only letters
+      </mat-error>
+     	<mat-icon matSuffix>list</mat-icon>
+    </mat-form-field>
+
+
+
+   <mat-form-field appearance="outline">
+      <mat-label >Blog Photo</mat-label>
+      <ngx-mat-file-input formControlName="blogPhoto" placeholder="Basic Input" ></ngx-mat-file-input>
+      <mat-error *ngIf=" myForm.get('blogPhoto').invalid">Please enter a photo
+      </mat-error>
+      <mat-icon matSuffix>picture_in_picture</mat-icon>
+    </mat-form-field>
+    
+
+
+<mat-form-field>
+<mat-label >Blog Date</mat-label>
+  <input matInput [matDatepicker]="myDatepicker">
+  <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+  <mat-datepicker #myDatepicker></mat-datepicker>
+</mat-form-field>
+
+
+    <mat-form-field appearance="outline">
+      <mat-label >Blog Text</mat-label>
+      <textarea matInput type="text" formControlName="blogText"   style="height:200px;font-size:14pt;"> </textarea>
+      <mat-error *ngIf=" myForm.get('blogText').invalid">Please enter your Blog message 
+      </mat-error>
+      <mat-icon matSuffix>note_add</mat-icon>
+    </mat-form-field>
+ 
+<div class="form-controls row">
+       <div class="col button-container">
+        <button mat-stroked-button color="primary" (click)="addBlog()" > Add </button>
+      </div>
+ </div>
+
+
+
+  </form>

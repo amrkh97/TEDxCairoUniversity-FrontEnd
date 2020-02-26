@@ -4,12 +4,14 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import{BlogComponent}from './pages/blog/blog.component'
 import { TeamComponent } from './pages/team/team.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { AdminComponent } from './pages/admin/admin.component';
 
 const routes: Routes = [
   { path: 'contact', component: ContactUsComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'team', component: TeamComponent },
   { path: 'about-us', component: AboutUsComponent },
+  { path: 'admin', component: AdminComponent },
 
 
 ];

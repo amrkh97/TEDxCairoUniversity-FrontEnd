@@ -11,7 +11,10 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { TeamComponent } from './pages/team/team.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
-
+import { AdminComponent } from './pages/admin/admin.component';
+import { MatFileUploadModule } from 'angular-material-fileupload';
+import { MaterialFileInputModule } from 'ngx-material-file-input';
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,13 +23,16 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
     ContactUsComponent,
     BlogComponent,
     TeamComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatFileUploadModule,
+    MaterialFileInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
